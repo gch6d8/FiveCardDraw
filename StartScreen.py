@@ -637,10 +637,10 @@ def intro():
     global SONG_END
 
     backImg = pygame.image.load('visualAssets/table.png')
-    pygame.mixer.music.set_endevent(SONG_END)
-    pygame.mixer.music.load('audioAssets/bgm/walk_through_the_park.mp3')
-    pygame.mixer.music.set_volume(0.3)
-    pygame.mixer.music.play()
+    #pygame.mixer.music.set_endevent(SONG_END)
+    #pygame.mixer.music.load('audioAssets/bgm/walk_through_the_park.mp3')
+    #pygame.mixer.music.set_volume(0.3)
+    #pygame.mixer.music.play()
 
     while intro:
         for event in pygame.event.get():
